@@ -1,4 +1,4 @@
-module github.com/openshift/osin
+module github.com/JQZhangC/osin
 
 go 1.15
 
