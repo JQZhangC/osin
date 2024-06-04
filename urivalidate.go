@@ -33,9 +33,9 @@ func ParseUrls(baseUrl, redirectUrl string) (retBaseUrl, retRedirectUrl *url.URL
 	}
 
 	// must not have fragment
-	if base.Fragment != "" || redirect.Fragment != "" {
-		return nil, nil, newUriValidationError("url must not include fragment.", baseUrl, redirectUrl)
-	}
+	//if base.Fragment != "" || redirect.Fragment != "" {
+	//	return nil, nil, newUriValidationError("url must not include fragment.", baseUrl, redirectUrl)
+	//}
 
 	// Scheme must match
 	if redirect.Scheme != base.Scheme {
