@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openshift/osin"
-	"github.com/openshift/osin/example"
+	"github.com/JQZhangC/osin"
+	"github.com/JQZhangC/osin/example"
 
 	"gopkg.in/square/go-jose.v1"
 )
